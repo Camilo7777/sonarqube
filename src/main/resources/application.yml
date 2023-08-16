@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: service-user
+  datasource:
+    url: jdbc:mysql://user.cj5zgeafovlq.us-east-2.rds.amazonaws.com:3306/user
+    username: root
+    password: 1234567890
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+appDescription: "Pragma Powerup Plazoleta"
+appVersion: "1.0.0"
